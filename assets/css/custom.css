@@ -1641,6 +1641,16 @@ h2.fourno {
     margin: 20px 10px;
 }
 
+.committeetextreport {
+    position: absolute;
+    width: 100%;
+    display: block;
+    float: left;
+    bottom: 0px;
+    padding: 0px 0px;
+    /* background-color: #FFFFFF; */
+}
+
 .committeetext {
     position: absolute;
     width: 100%;
@@ -1654,6 +1664,7 @@ h2.fourno {
     width: 100%;
     height: 255px;
 }
+
 .committeeimg {
     display: block;
     float: left;
@@ -1661,6 +1672,8 @@ h2.fourno {
     height: auto;
     /* padding: 6px 0px; */
 }
+
+
 
 span.committeep {
     font-size: 21px;
@@ -1675,6 +1688,7 @@ span.committeep {
     padding-left: 0px;
 }
 
+
 span.committeep {
     display: block;
     float: left;
@@ -1684,13 +1698,6 @@ span.committeep {
     padding-left: 0px;
 }
 
-span.committeeimgsm {
-    display: block;
-    float: left;
-    width: 35%;
-    text-align: right;
-    padding-right: 20px;
-}
 span.agendaclr{
     color: #EE942B;
 }
@@ -2640,10 +2647,390 @@ span.twodelete {
 .margin10{
     margin-right: 10px;
 }
+input[type="radio"] {
+    margin-top: 5px;
+}
+
 /* ============================================Internal Css page fie ================================================= */
 
 
-/* =================================================== Responsive Design End Here  ======================================= */
+/* =================================================== Report Management  ======================================= */
+
+span.report {
+    font-size: 21px;
+    color: #4DB6FC;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.generalinformation {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#4DB6FC;
+    position: relative;
+}
+
+.generalinformation a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    }
+
+
+.coverpage {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#EE942B;
+    position: relative;
+}
+
+.coverpage a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+
+span.coverpagetext {
+    font-size: 21px;
+    color: #EE942B;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.sucipotro {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#92921A;
+    position: relative;
+}
+
+.sucipotro a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.sucipotrotext {
+    font-size: 21px;
+    color: #92921A;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.mukhbondo {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#ED1E79;
+    position: relative;
+}
+
+.mukhbondo a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.mukhbondotext {
+    font-size: 21px;
+    color: #ED1E79;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.committeesodoso {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#9C3D54;
+    position: relative;
+}
+
+.committeesodoso a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.committeesodosotext {
+    font-size: 21px;
+    color: #9C3D54;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.commitee_sub {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#1353B4;
+    position: relative;
+}
+
+.commitee_sub a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.commitee_subtext {
+    font-size: 21px;
+    color: #1353B4;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.meetingnotice {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#06AE8C;
+    position: relative;
+}
+
+.meetingnotice a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.meetingnoticetext {
+    font-size: 21px;
+    color: #06AE8C;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.subpotibedon {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#2485C7;
+    position: relative;
+}
+
+.subpotibedon a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.subpotibedontext {
+    font-size: 21px;
+    color: #2485C7;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.ogrogoti {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#566F97;
+    position: relative;
+}
+
+.ogrogoti a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.ogrogotitext {
+    font-size: 21px;
+    color: #566F97;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.porjobekkon {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#09542F;
+    position: relative;
+}
+
+.porjobekkon a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.porjobekkontext {
+    font-size: 21px;
+    color: #09542F;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.boicitrosomuho {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#9843CF;
+    position: relative;
+}
+
+.boicitrosomuho a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.boicitrosomuhotext {
+    font-size: 21px;
+    color: #9843CF;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+
+.upsonghar {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#6D5F3F;
+    position: relative;
+}
+
+.upsonghar a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.upsonghartext {
+    font-size: 21px;
+    color: #6D5F3F;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.finalreview {
+    display: block;
+    float: left;
+    width: 100%;
+    min-height: 245px;
+    background-color:#716ACA;
+    position: relative;
+}
+
+.finalreview a img {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+span.finalreviewtext {
+    font-size: 21px;
+    color: #716ACA;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width:100%;
+    text-align: center;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+.marginbottom100 {
+    margin-bottom: 100px;
+}
+.textpadding{
+    padding: 15px 0px;
+}
+
+/* =================================================== Report Management  ======================================= */
 
 
 
