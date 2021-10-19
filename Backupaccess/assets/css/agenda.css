@@ -1,0 +1,12 @@
+.commonheight {
+height: 48px !important;
+  }
+.ahobankari{
+    display:block;
+    float: left;
+    width: 100%;
+}
+.ahobankari h2 {
+    border-bottom: 1px solid #8F8F8F;
+    padding: 20px 0px;
+}

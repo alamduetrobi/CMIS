@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98">
+  <g id="Stockholm-icons-_-Code-_-Info-circle" data-name="Stockholm-icons-/-Code-/-Info-circle" transform="translate(-0.264 -0.264)">
+    <rect id="bound" width="98" height="98" transform="translate(0.264 0.264)" fill="none"/>
+    <circle id="Oval-5" cx="41" cy="41" r="41" transform="translate(8.264 8.264)" fill="#dd2c00" opacity="0.3"/>
+    <g id="Group_54606" data-name="Group 54606" transform="translate(-1464.736 -558.736)">
+      <g id="delete_outline_black_24dp" transform="translate(1496 590)">
+        <path id="Path_44040" data-name="Path 44040" d="M0,0H36V36H0Z" fill="none"/>
+        <path id="Path_44041" data-name="Path 44041" d="M6.5,27a3.009,3.009,0,0,0,3,3h12a3.009,3.009,0,0,0,3-3V9H6.5Zm3-15h12V27H9.5ZM20.75,4.5,19.25,3h-7.5l-1.5,1.5H5v3H26v-3Z" transform="translate(2.5 1.5)" fill="#dd2c00"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,2209 @@
+@font-face { 
+    font-family: 'Noto Sans Bengali';
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Black.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Bold.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Bold_7FIxbBh.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Bold_fEdovtS.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Bold_R9HaCsS.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Extra_Bold.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Extra_Light.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Light.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Medium.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Regular.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Regular_0pODjkZ.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Semi-Bold.ttf') format('ttf');
+    src: url('fonts/Noto_Sans_Bengali/Noto_Sans_Bengali-Thin.ttf') format('ttf');
+    }
+
+
+/* ===================================== Reset Css ============================================= */
+
+
+button#kt_header_mobile_toggler {
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+::before, ::after{
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Nikosh';
+    -webkit-transition: all 0.3s ease;                 
+    -o-transition: all 0.3s ease;          
+    transition: all 0.3s ease;
+    background-position-y:inherit;
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    a{
+        text-decoration: none;
+        color: #333;
+    }
+    
+    h1, h2{
+        font-weight: 300;
+        line-height: 1.2;
+        margin: 10px 0;
+    }
+    
+    p{
+        margin: 10px 0;
+    }
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+
+/* ===================================== Reset Css ============================================= */
+
+
+/* .asscurcularstep{
+    max-width: 1256px;
+    flex: 1 0 auto;
+    background-color: #fff;
+} */
+.asscurcularstep {
+    max-width: 1256px;
+    background-color: #fff;
+    /* padding: 30px; */
+    height: 80vh;
+}
+.circulartitle{
+    display: block;
+    float:left;
+    width: 100%;
+    border-bottom: 1px solid #CBD7E4;
+
+}
+
+.circulartitle h3.headingtitle {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    font-family: 'Noto Sans Bengali' !important;
+    color: #0E8247 !important;
+    padding: 20px 20px;
+    margin-bottom: 0px;
+    float: left;
+    text-align: left;
+}
+
+.qkt-aside__brand{
+    background-color: #1353B4;
+}
+.qkt-header{
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    /* color: #fff; */
+}
+
+div#kt_subheader {
+    background-color: #F2F3F5;
+    height: 65px;
+}
+.qkt-aside-menu{
+background-color: #1353B4;
+}
+
+.qkt-aside {
+    background-color: #1353B4;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link {
+    background-color: #1353B4;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link {
+    background-color: #1353B4;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__submenu .kt-menu__subnav > .kt-menu__item > .kt-menu__link {
+    padding: 0 25px;
+    padding-left: 65px;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__submenu .kt-menu__subnav > .kt-menu__item > .kt-menu__link:before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/submenu.png')no-repeat;
+    top: 10px;
+    left: 26px;
+    width: 36px;
+    height: 18px;
+    background-position: 100% 0%;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__submenu .kt-menu__subnav > .kt-menu__item > .kt-menu__link:hover:before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/submenu.png')no-repeat;
+    top: 10px;
+    left: 44px;
+    width: 36px;
+    height: 18px;
+    background-position: 0% 100%;
+}
+
+
+a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link::before
+
+/* a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/submenu.png')no-repeat;
+    top: 8px;
+    left: 33px;
+    width: 36px;
+    height: 18px;
+    background-position: 0% 100%;
+} */
+
+
+
+
+/* a.poripotroicon:hover::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/poripotro.png')no-repeat;
+    top: 20px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+}
+a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link.poripotroicon::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/poripotro.png')no-repeat;
+    top: 20px;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+} */
+/* 
+a.posnobabostapona:hover::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/question.png')no-repeat;
+    top: 20px;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+}
+
+a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link.posnobabostapona::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/question.png')no-repeat;
+    top: 20px;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+} */
+
+/* a.uttorbabostapona:hover::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/answer.png')no-repeat;
+    top: 20px;
+    left:13px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+}
+a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link.uttorbabostapona::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/answer.png')no-repeat;
+    top: 20px;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+} */
+
+/* a.reportbebosta:hover::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/report.png')no-repeat;
+    top: 20px;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+}
+a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link.reportbebosta::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/report.png')no-repeat;
+    top: 20px;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 100% 0%;
+} */
+
+/* ================================== Hover and active content end ============================ */
+a.nodouble:before {
+    display: none;
+}
+
+
+.dashboardicon {
+    position: relative;
+}
+
+.dashboardicon::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/dashboard.png')no-repeat;
+    top: 10px;
+    left: 13px;
+    /* color: red; */
+    /* background-color: yellow; */
+    width: 24px;
+    height: 24px;
+    /* top: 10px; */
+    background-position: 0% 100%;
+}
+/* 
+.dashboardicon:hover::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/dashboard.png')no-repeat;
+    top: 13px;
+    left: 13px;
+    width: 18px;
+    height: 18px;
+    background-position: 100%  0%;
+}
+
+a.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link.dashboardicon::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/dashboard.png')no-repeat;
+    top: 20px;
+    left: 24px;
+    width: 18px;
+    height: 18px;
+    background-position: 100% 0%;
+} */
+
+.poripotroicon{
+    position: relative !important;
+}
+
+.poripotroicon::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/committe.png')no-repeat;
+    top: 10px !important;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 0% 100%;
+}
+
+span.maintext {
+    margin-left: 25px;
+    color: #8fbbff !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-size: 18px !important;
+}
+
+span.maintextporipotro {
+    margin-left: 25px;
+    color: #8FBBFF !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-size: 18px !important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__ver-arrow, .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__ver-arrow {
+    color: #fff;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__ver-arrow, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__ver-arrow {
+    color: #fff;
+}
+
+.posnobabostapona{
+    position: relative;
+}
+
+.posnobabostapona::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/agenda.png')no-repeat;
+    top: 10px !important;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 0% 100%;
+}
+
+.uttorbabostapona{
+    position: relative;
+}
+
+.uttorbabostapona::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/meetting.png')no-repeat;
+    top: 10px !important;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 0% 100%;
+}
+
+.reportbebosta::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/report.png')no-repeat;
+    top: 10px !important;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 0% 100%;
+}
+
+.databebostapona{
+    position: relative;
+}
+
+.databebostapona::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/configer.png')no-repeat;
+    top: 10px !important;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 0% 100%;
+}
+.userbebostapona{
+    position: relative;
+}
+
+.userbebostapona::before {
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/cims/user.png')no-repeat;
+    top: 10px !important;
+    left: 13px;
+    width: 24px;
+    height: 24px;
+    background-position: 0% 100%;
+}
+
+.subtext {
+    font-size: 15px !important;
+    color: #fff !important;
+    font-family: 'Noto Sans Bengali' !important;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-bullet.kt-menu__link-bullet--line > span, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-bullet.kt-menu__link-bullet--line > span {
+    background-color: #fff;
+}
+
+/* .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link {
+    background-color: #0B683A;
+} */
+
+
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link {
+    background-color: transparent;
+    /* border-left: 10px solid yellow; */
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link span{
+    color: #E8DE16 !important;
+}
+
+ .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link span {
+    color: #fff !important;
+    margin-left: 25px;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__heading .kt-menu__ver-arrow, .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--open > .kt-menu__link .kt-menu__ver-arrow {
+    color: #fff !important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__heading .kt-menu__link-text, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__link .kt-menu__link-text {
+    color: #E8DE16 !important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__heading .kt-menu__link-text, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__link:before{
+/* .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__submenu .kt-menu__subnav > .kt-menu__item > .kt-menu__link:hover:before { */
+    content: ' ';
+    position: absolute;
+    background: url('../media/questionans/menu/submenu.png')no-repeat;
+    top: 10px;
+    left: 44px;
+    width: 36px;
+    height: 18px;
+    background-position: 0% 100%;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__heading .kt-menu__ver-arrow, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__link .kt-menu__ver-arrow {
+    color: #E8DE16 !important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__heading .kt-menu__link-bullet.kt-menu__link-bullet--line > span, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__link .kt-menu__link-bullet.kt-menu__link-bullet--line > span {
+    background-color: transparent !important;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item:not(.kt-menu__item--parent):not(.kt-menu__item--open):not(.kt-menu__item--here):not(.kt-menu__item--active):hover > .kt-menu__link {
+    background-color: transparent;
+}
+
+
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__heading, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item.kt-menu__item--open > .kt-menu__link {
+    background-color: transparent;
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-text, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Noto Sans Bengali';
+}
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-bullet.kt-menu__link-bullet--dot > span, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-bullet.kt-menu__link-bullet--dot > span {
+    background-color: #fff;
+}
+
+span.ringing {
+    position: relative;
+}
+
+span.superlap {
+    position: absolute;
+    right: -5px;
+    top: 7px;
+    font-family: 'Mulish';
+    font-size: 11px;
+    color: #fff;
+    background-color: red;
+    border-radius: 50%;
+    line-height: 11px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.omortextbold {
+    color: #727272 !important;
+    font-size: 19px !important;
+}
+.omortext{
+    color: #606FD1 !important;
+}
+h3.headingtitle {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    font-family: 'Noto Sans Bengali' !important;
+    color: #0084FF!important;
+}
+
+a.fotterimg img {
+    height: 100%;
+    width: 50%;
+}
+.footercontent {
+    text-align: right;
+    float: right;
+
+}
+.bodyimg {
+    display: block;
+    float: left;
+    width: 100%;
+    /* margin: 119px auto; */
+    text-align: center;
+    /* margin-top: 5%; */
+    /* padding-bottom: 125px; */
+    height: auto;
+}
+
+.dashboard {
+    /* display: flex; */
+    display: block;
+    width: 98%;
+    min-height: 610px;
+    /* height: auto; */
+    background-color: #FAFAFA;
+    margin: 15px auto;
+    border-radius: 7px;
+    float: left;
+    /* padding-bottom: 60px; */
+}
+
+.dashboardcontent {
+    display: block;
+    float: left;
+    width: 99%;
+    margin-top: 47px;
+}
+.tarokacinito {
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0px 10px 0px 10px;
+}
+
+.tarokacinito img {
+    width: 100%;
+}
+
+.questionmark img {
+    width: 100%;
+}
+
+.questionmark {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+.reportmark {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+/* ================================================ Add Curcular Step Form Page ====================================== */
+.toppadding{
+    padding-top: 65px !important;
+}
+.bodycontent {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.odibationbutton {
+    width: 508px;
+    height: 59px;
+    display: block;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    margin-top: 32px;
+    /* padding: 15px 20px; */
+    border: 1px solid #dcdcdd;
+    margin-bottom: 42px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.tab-group {
+    list-style: none;
+    padding: 0;
+    /* margin: 0 0 40px 0; */
+}
+.tab-group .active a {
+    background: #DFF0FF;
+    color: #0779E4 !important;
+    font-weight: 600;
+    line-height: 31px;
+    border-radius: 4px 0px 0px 4px;
+}
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 13px 15px;
+    background: #fff;
+    color: #757577;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.formleftarea {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 0px 40px;
+}
+.form-group {
+    margin-bottom: 16px;
+}
+
+label.labeltext {
+    margin-bottom: 6px;
+}
+.formrightarea {
+    display: block;
+    width: 50%;
+    float: left;
+    padding: 0px 40px;
+}
+button.buttonnext {
+    display: block;
+    width: 270px;
+    background-color: #0779E4 !important;
+    color: #fff;
+    border: 1px solid #0779E4;
+    font-family: 'Noto Sans Bengali';
+    font-size: 21px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding: 14px 16px;
+    float: right;
+    margin-top: 18px;
+}
+button.buttonnext img {
+    float: right;
+}
+.qformarea {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+}
+button.newboitok {
+    display: block;
+    color: #fff;
+    background-color: #0E8248;
+    border: none;
+    padding: 16px 16px 16px 16px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Noto Sans Bengali';
+    margin-left: 35px;
+    margin-bottom: 30px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+.plusadd {
+    color: #F6EC21;
+    font-size: 30px;
+}
+
+/* ============== Circuar step modal ================*/
+.modalwidth {
+    max-width: 1100px;
+}
+.allradius {
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+.modalleft {
+    padding: 26px 25px 90px 24px;
+}
+.modaltoptitle {
+    display: block;
+    float: left;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 7px 7px 0px 0px;
+    -webkit-border-radius: 7px 7px 0px 0px;
+    -moz-border-radius: 7px 7px 0px 0px;
+    -ms-border-radius: 7px 7px 0px 0px;
+    -o-border-radius: 7px 7px 0px 0px;
+}
+h2.headertitle {
+    font-family: 'Noto Sans Bengali';
+    font-size: 28px;
+    color: #0779E4;
+    font-weight: 600;
+    padding: 10px 0px 22px 40px;
+    font-weight: 700;
+}
+.questionansform {
+    border: 1px solid #BDBDBB;
+    height: 52px;
+    padding: .375rem 1rem;
+    color: #9E9E99;
+}
+.multiselect {
+    width: 100%;
+    border: 1px solid #BDBDBB;
+    height: 56px;
+}
+.formcheckinput {
+    width: auto;
+}
+label.form-check-label {
+    font-size: 20px;
+    font-family: 'Noto Sans Bengali';
+    color: #424244;
+}
+.modalbg {
+    background-color: #F5F5F5;
+    border-radius: 7px;
+}
+.modalright {
+    padding: 26px 25px 90px 26px;
+}
+.rightsidetitle {
+    margin-top: 70px;
+}
+.rightsidetitle h4 {
+    font-size: 23px;
+    color: #424244;
+    font-family: 'SolaimanLipi';
+}
+.righttags {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.taggroup {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 20px 20px 10px 0px;
+}
+.taggroup a {
+    text-decoration: none;
+    color: #616166;
+    font-size: 19px;
+    font-family: 'SolaimanLipi', Arial, sans-serif !important;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #CBD7E4;
+    border-radius: 37px;
+}
+.modalsubmit {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: right;
+    /* margin-top: 125px; */
+    position: absolute;
+    bottom: 30px;
+    right: 35px;
+}
+button.batil {
+    background-color: #fff;
+    /* border: none; */
+    padding: 12px 24px;
+    border-radius: 7px;
+    border: 1px solid #CBD7E4 !important;
+    color: #616166;
+    font-family: 'Noto Sans Bengali';
+    margin-right: 20px;
+    font-size: 21px;
+}
+button.jomadin {
+    display: block;
+    background-color: #0779E4 !important;
+    color: #fff;
+    border: 1px solid #0779E4;
+    font-family: 'Noto Sans Bengali';
+    font-size: 21px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    padding: 12px 24px;
+    float: right;
+    /* margin-top: 18px; */
+}
+.selectBox {
+    position: relative;
+}
+select.ministrybibag {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('images/content/down.png')no-repeat;
+    background-position: 95% 100%;
+    padding-right: 56px;
+}
+.selectBox select {
+    width: 100%;
+    font-weight: bold;
+    border: none;
+}
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+div#checkboxes {
+    display: block;
+    float: left;
+    width: 100%;
+    /* border-radius: 7px; */
+    background-color: #fff;
+    margin-top: 24px;
+    padding: 0px 10px;
+}
+#checkboxes {
+    display: none;
+    border: 1px #dadada solid;
+}
+.formcheckinput {
+    width: auto;
+}
+form input {
+    width: auto;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+ul.childgroup li {
+    padding-left: 10px;
+}
+
+.nothitext {
+    color: #424244;
+    font-size: 23px !important;
+    font-family: 'SolaimanLipi';
+}
+.btn.btn-link:focus, .btn.btn-link:hover, .btn.btn-link.active, a.btn.btn-label:focus, a.btn.btn-label:hover, a.btn.btn-label.active, button.btn.btn-label:focus, button.btn.btn-label:hover, button.btn.btn-label.active, input.btn.btn-label:focus, input.btn.btn-label:hover, input.btn.btn-label.active {
+    background-color: transparent;
+    color: #0E8248;
+}
+
+i.fa.fa-minus {
+    margin-right: 20px;
+}
+i.fa.fa-plus {
+    margin-right: 20px;
+}
+div#kt_footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow-y: hidden;
+    z-index: 999;
+}
+.kt-footer {
+    padding: 10px 25px;
+}
+
+span.ringing {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+span.ringing {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin-top: 15px;
+}
+
+.header_right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header_right .single_item {
+    padding: 20px;
+}
+
+.details a {
+    position: relative;
+    cursor: pointer;
+}
+
+.single_item {
+    padding: 20px;
+}
+
+.onoffswitch {
+    position: relative;
+    width: 90px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.designation a {
+    text-decoration: none;
+    position: relative;
+}
+
+span.maintitle {
+    color: #606FD1;
+    font-size: 18px;
+    margin-top: -13px;
+    float: left;
+}
+
+span.manager {
+    margin-top: 15px;
+    /* float: left; */
+    position: absolute;
+    right: 40px;
+    font-size: 12px;
+    color: #727272;
+}
+img.personimage {
+    margin-left: 10px;
+}
+
+span.manager {
+    margin-top: 15px;
+    /* float: left; */
+    position: absolute;
+    right: -108px;
+    font-size: 14px;
+    color: #727272;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 250px;
+}
+
+.singlepaddingtop {
+    padding: 12px 20px !important;
+}
+
+.kt-aside__brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0px !important;
+    height: 65px;
+}
+
+.kt-footer .kt-footer__menu .kt-footer__menu-link {
+    margin: 0 0 0 1.25rem;
+    padding: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #6c7293;
+}
+a.kt-footer__menu-link.kt-link img {
+    width: 60%;
+}
+.kt-content {
+    padding: 25px 10px;
+}
+img.worldimg {
+    width: 24px;
+    height: 24px;
+}
+
+/* ============== Circuar step modal ================*/
+/* ================================================ Add Curcular Step Form Page ====================================== */
+
+
+/* =================================================== Commitee Management  ======================================= */
+.comitee_management {
+    display: flex;
+    width: 100%;
+    /* text-align: center; */
+    justify-content: center;
+    height: 82vh;
+    align-items: center;
+}
+/* =================================================== Commitee Management  ======================================= */
+/* =================================================== Commitee SongJukti  ======================================= */
+.cometee_sonjuktiform {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #F4F6F9;
+    /* padding: 20px; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    border: 20px solid #fff;
+}
+.cometee_sonjuktiformcustom {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #F4F6F9;
+    /* padding: 20px; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    border: 20px solid #fff;
+    float: left;
+    margin-bottom: 100px;
+}
+          
+.songjukti_title {
+    background-color: #DFEDFF;
+    padding: 15px 0px 10px;
+    margin-bottom: 0px;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.songjukti_title h3{
+    margin-bottom: 0px;
+}
+.songjukti_title h3 {
+    margin-bottom: 0px;
+    color: #1353B4;
+    font-size: 29px;
+    font-family: 'Noto Sans Bengali';
+    font-weight: 600;
+}
+
+/* .totalforcontrol {
+    padding: 20px 145px;
+} */
+.totalforcontrol {
+    padding: 20px 80px;
+}
+
+.commonlevel {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'SolaimanLipi';
+    font-weight: 500;
+    margin-top: 20px;
+}
+.commonlevelonulipi {
+    font-size: 20px;
+    color: #000000;
+    font-family: 'SolaimanLipi';
+    font-weight: 500;
+    margin-top: 0px;
+    float: left;
+}
+
+
+
+
+input[type="text"]::-webkit-input-placeholder,input[type="password"]::-webkit-input-placeholder{
+    color:#8F8F8F;
+    font-size: 25px;
+    font-family: 'SolaimanLipi'!important;
+    font-weight: 300s;
+}
+
+ input[type="text"]::-moz-placeholder, input[type="password"]::-moz-placeholder{
+    color:#8F8F8F;
+    font-size: 25px;
+    font-family: 'SolaimanLipi'!important;
+    font-weight: 300s;
+}
+
+ input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder{
+    color:#8F8F8F;
+    font-size: 25px;
+    font-family: 'SolaimanLipi'!important;
+    font-weight: 300s;
+}
+
+ input[type="text"]::-ms-input-placeholder, input[type="password"]::-ms-input-placeholder{
+    color:#8F8F8F;
+    font-size: 25px;
+    font-family: 'SolaimanLipi'!important;
+    font-weight: 300s;
+}
+
+ input[type="text"]::placeholder, input[type="password"]::placeholder{
+    color:#8F8F8F;
+    font-size: 25px;
+    font-family: 'SolaimanLipi'!important;
+    font-weight: 300s;
+
+}
+
+
+input[type="text"]::placeholder,input[type="password"]::placeholder, input[type="email"]{
+    color:#8F8F8F;
+    font-size: 25px;
+    font-family: 'SolaimanLipi'!important;
+    font-weight: 300s;
+}
+
+select.commonheight {
+    font-size: 20px;
+    color:#8F8F8F;
+  }
+  .commonheight{
+      height: 48px;
+  }
+  .cometee_sonjuktiform {
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #F4F6F9;
+    /* padding: 20px; */
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
+    border: 20px solid #fff;
+    margin-bottom:30px;
+}
+
+/* .bottomspace{
+    margin-bottom: 70px;
+} */
+
+.paddinless {
+    padding: 20px!important;
+    background-color: #fff;
+}
+
+thead.subhead {
+    background-color: #EDF0F6;
+    font-size: 18px;
+    color: #1353B4;
+    font-weight: 400;
+    font-family: 'SolaimanLipi';
+    text-align: center;
+}
+thead.subhead {
+    font-size: 18px;
+    color: #1353B4;
+}
+thead.subheadgray {
+    background-color: #E6E6E6;
+    font-size: 18px;
+    color: #4E4E4E;
+    font-weight: 400;
+    font-family: 'SolaimanLipi';
+    text-align: center;
+}
+
+thead.subheadgray th{
+    font-size: 18px;
+    color: #4E4E4E;
+}
+
+td.nullitem {
+    text-align: center;
+    font-family: 'SolaimanLipi';
+    font-size: 18px;
+    line-height: 50px;
+}
+.tdcheckbox {
+    width: 24px;
+    height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #707070;
+    margin-top: 15px;
+}
+.oposaronbutton {
+    display: block;
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin:0px;
+    margin-bottom: 50px;
+}
+
+a.oposaron {
+    margin-right: 10px;
+}
+tbody.graybody tr td {
+    font-size: 18px;
+    color: #4E4E4E;
+    text-align: center;
+}
+th.podobi {
+    width: 275px;
+}
+td.bodobitd {
+    display: block;
+    float: left;
+    width: 100%;
+}
+span.countmember {
+    float: left;
+    display: inline-block;
+}
+input.form-control.tablecheck {
+    float: right;
+    text-align: right;
+    display: block;
+    width: 24px;
+}
+td.bodobitd {
+    padding: 5px 45px;
+}
+a.jomadin {
+    margin-left: 10px;
+}
+.oposaronbutton.topbtngroup {
+    margin-bottom: 20px;
+}
+
+.sodosso h3 {
+    font-size: 29px;
+    color: #1353B4;
+    font-family: 'Noto Sans Bengali';
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+h2.sorkarititle {
+    font-size: 24px !important;
+    color: #1353B4 !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    margin: 0 30%;
+}
+/* button.close.totalclose {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+} */
+.modal .modal-content .modal-header .close:before {
+    content: "";
+    background: url('../media/questionans/content/cims/modalclose.png')no-repeat;
+    position: absolute;
+    top: -22px;
+    right: -1px;
+    width: 41px;
+    height: 42px;
+}
+
+.searchtablecims{
+display: auto;
+}
+
+.searchtablecims tr td {
+    font-size: 16px;
+    font-family: 'SolaimanLipi';
+    color: #242424;
+    text-align: center;
+    /* line-height: 36px; */
+    padding: 29px 10px;
+}
+.searchtablecims tr th{
+    font-size: 16px;
+    font-family: 'Noto Sans Bengali';
+    color:#1353B4 ;
+}
+.onusondanform {
+    width: 27%;
+    margin: 0px 20px;
+}
+
+.subonusondanform {
+    width: 19%;
+    margin: 0px 20px;
+}
+
+.onusondanbutton {
+    display: block;
+    float: right;
+    width: 250px;
+    height: 250px;
+}
+.onusondanbutton {
+    display: block;
+    float: right;
+    /* width: 250px; */
+    /* height: 250px; */
+    margin-top: 43px;
+    /* width: 15px; */
+    /* height: 48px; */
+    width: 11%;
+}
+span.arroback {
+    margin-left: 25px;
+}
+.sodosogon h3{
+    margin-top: 30px;
+}
+
+.sodosertalika tr td {
+    font-size: 20px;
+    font-family: 'SolaimanLipi';
+    color: #434343;
+    text-align: center;
+}
+.onulipi {
+    display: block;
+    float: left;
+    width: 100%;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'SolaimanLipi';
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.onulipileft {
+    display:block;
+    float: left;
+    width: 50%;
+    text-align:left;
+}
+.onulipiright {
+    display:block;
+    float: left;
+    width: 50%;
+}
+a.previewbtn {
+    margin-right:15px;
+}
+a.notitedin {
+    margin-right: 15px;
+}
+a.oposaron2 {
+    margin-right: 15px;
+}
+.nibachonlarge{
+    background-color: #0084FF;
+    border-color: #0084FF;
+    font-size: 20px;
+    font-family: 'Noto Sans Bengali';
+}
+.sokolmanonioarea {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid #707070;
+    margin: 25px 0px;
+}
+.singlearea {
+    display: block;
+    float: left;
+    width: 100%;
+}
+span.singletext {
+    display: block;
+    float: left;
+    width: 80%;
+}
+span.deleteicon {
+    display: block;
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+span.singletext p {
+    font-size: 20px;
+    font-family: 'SolaimanLipi';
+    color: #000;
+}
+.onulipititle {
+    float: left;
+    text-align: left;
+    margin-left: 0px !important;
+}
+.arrowbackcontent {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.printviewcontent {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+    margin-bottom: 60px;
+}
+span.arrowback {
+    margin-left: 28px;
+}
+h4.panel-title {
+    margin-bottom: 0px;
+}
+th.bistaritodekun {
+    background-color: #0084FF;
+    color: #fff !important;
+}
+
+.sompadona{
+    background-color:#1353B4;
+    color: #fff !important;
+}
+.jarikorun{
+    background-color: #18847D;
+    color: #fff !important;
+}
+span.editbtn i {
+    font-size:20px;
+    color: #0098BF;
+}
+span.printbtn i {
+    font-size:20px;
+    color: #716ACA;
+}
+span.deletebtn i {
+    font-size: 20px;
+    color: #F86300;
+}
+span.editbtn {
+    margin: 10px 30px 10px 40px;
+}
+span.printbtn {
+    margin: 10px 30px 10px 20px;
+}
+span.deletebtn {
+    margin-left: 30px;
+    /* margin-right: 0px; */
+}
+td.switcher {
+    text-align: center;
+}
+.bistaritodekun tr td {
+    font-family: 'SolaimanLipi';
+    color: #242424;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+}
+.subbistaritodekun tr td {
+    font-family: 'SolaimanLipi';
+    color: #242424;
+    font-size: 16px;
+    text-align: center;
+    line-height:30px;
+}
+td.bistarito {
+    color: #0084FF !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 400;
+}
+a.editleft {
+    display: block;
+    float: left;
+    width: 20%;
+}
+a.editleft {
+    line-height: 25px;
+    margin-top: 20px;
+}
+span.deletetext {
+    margin-left: 0px;
+}
+.songjuktokorun {
+    display: block;
+    float: right;
+    text-align: right;
+    margin: 15px 0px;
+}
+.modal_add_form {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.formfield {
+    display: block;
+    float: left;
+    width: 80%;
+}
+.formbutton {
+    display: block;
+    float: right;
+    /* width: 20%; */
+    margin-top: 48px;
+}
+.addheight{
+    height: 48px;
+}
+.addlevel{
+    font-size: 24px;
+    color: #434343;
+    font-family: 'SolaimanLipi';
+}
+h2.fourno {
+    font-size: 24px !important;
+    color: #1353B4 !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    margin: 0 21%;
+}
+/* =================================================== Commitee SongJukti  ======================================= */
+/* =================================================== Dashboard css start  ======================================= */
+.singlecommittee {
+    display: block;
+    width: 97%;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    background-color: #fff;
+    min-height: 325px;
+    position: relative;
+    border: 6px solid #fff;
+    border-radius: 6px;
+    /* padding: 20px 0px; */
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+    margin: 20px 10px;
+}
+
+.committeetext {
+    position: absolute;
+    width: 100%;
+    display: block;
+    float: left;
+    bottom: 0px;
+    padding: 11px 30px;
+    /* background-color: #FFFFFF; */
+}
+.committeeimg img {
+    width: 100%;
+    height: 255px;
+}
+.committeeimg {
+    display: block;
+    float: left;
+    width: 100%;
+    height: auto;
+    /* padding: 6px 0px; */
+}
+
+span.committeep {
+    font-size: 21px;
+    color: #4DB6FC;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600;
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 0px;
+}
+
+span.committeep {
+    display: block;
+    float: left;
+    width: 65%;
+    text-align: left;
+    margin-top: 3px;
+    padding-left: 0px;
+}
+
+span.committeeimgsm {
+    display: block;
+    float: left;
+    width: 35%;
+    text-align: right;
+    padding-right: 20px;
+}
+span.agendaclr{
+    color: #EE942B;
+}
+span.magenda{
+    color: #92921A;
+}
+
+span.confidanceclr{
+    color: #34BFA3;
+}
+
+span.userclr {
+    color: #716ACA;
+    margin-top: 12px;
+    font-weight: 500;
+}
+span.reportclr {
+    color: #1353B4;
+}
+
+td.sodosocheckbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.scheckbox .tdcheckbox{
+    margin-top: 3px;
+}
+
+.sonjuktimodal{
+    width: 92%;
+}
+.onumodonmodal{
+    width:100%;
+}
+
+.sodosso {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.sodosso h3 {
+    font-size: 29px;
+    color: #1353B4;
+    font-family: 'Noto Sans Bengali';
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.simpleditor {
+    display: block;
+    float: left;
+    width: 101%;
+    margin-bottom:0px;
+}
+.eidtorwidth{
+    padding: 1.25rem 0rem !important;
+}
+.tox.tox-tinymce {
+    height: 380px !important;
+    width: 101% !important;
+}
+.checkboxara {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+.checkboxara h3 {
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin: 15px 0px;
+    color: #000;
+}
+.checkboxitem ul li {
+    margin-bottom: 5px;
+}
+.checkboxitem ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+span.checktext {
+    margin-left: 13px;
+}
+.modaltextarea {
+    width: 100%;
+}
+li.addmebtn {
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+span.deletebtn {
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+}
+a.mucefelun {
+    display: flex;
+    float: left;
+    width: 100%;
+    flex-direction: column;
+}
+td.subedit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+td.subedit i {
+    color: #0098BF;
+    font-size:20px;
+}
+td.subedit i.fa-trash-alt {
+    color: #F3431E;
+    font-size:20px;
+}
+
+.subedittext{
+    font-size: 16px;
+    color:#242424;
+}
+.subdeletetext{
+    font-size: 16px;
+    color:#242424;
+}
+/* td.gordertd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} */
+span.geditbtn i {
+    font-size: 20px;
+    color: #566F97;
+}
+span.geditbtn i {
+    font-size:20px;
+    color: #566F97;
+}
+span.gprintbtn i {
+    font-size: 20px;
+    color: #716ACA;
+}
+span.gdeletebtn i {
+    font-size: 20px;
+    color: #F86300;
+}
+span.gprintbtn {
+    margin: 0px 20px;
+}
+
+
+/* span.committeep {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 0px;
+} */
+/* 
+.committeeimg img {
+    position: absolute;
+    margin: 0;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+}
+
+.committeeimg {
+    background-color: #F5F5F5;
+    display: block;
+    width: 100%;
+    float: left;
+    height: 253px;
+    border: 5px solid #fff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+}  */
+/* =================================================== Dashboard css end  ======================================= */
+/* =================================================== Responsive Design start Here  ======================================= */
+.checkboxarea {
+    display: flex;
+    font-size: 0px;
+}
+
+/* .checkboxlabel {
+    font-size: 12px !important;
+    margin-right: 15px !important;
+    color: #000000 !important;
+} */
+.checkboxlabel {
+    font-size: 20px !important;
+    margin-right: 15px !important;
+    color: #000000 !important;
+    font-family: 'SolaimanLipi' !important;
+}
+
+.checkboxarea {
+    display: flex;
+    margin-top: 25px;
+}
+h3.boitoker_talika {
+    display: block;
+    float: left;
+    width: 48%;
+    text-align: left;
+    margin-left: 2%;
+    line-height: 50px;
+}
+
+a.buking_jukkorun {
+    display: block;
+    float: right;
+    text-align: right;
+    background-color: #34BFA3;
+    padding: 12px 30px;
+    margin-right: 1%;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.specifictimetable tr td {
+    font-family: 'SolaimanLipi';
+    color: #242424;
+    font-size: 16px;
+    text-align: center;
+    line-height:20px;
+}
+
+td.specifictime {
+    background-color: #1CB21C;
+    color: #fff !important;
+}
+td.urgent {
+    background-color: #F3431E;
+    color: #fff !important;
+}
+.onusondanbtn {
+    text-align: left;
+    display: block;
+    float: right;
+    width: 100%;
+    margin: 0px;
+    margin: 50px 0px 0px;
+}
+
+
+
+td.adminbistarito a {
+    background-color: #1CB21C;
+    color: #fff;
+    line-height: 40px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-family: 'Noto Sans Bengali';
+}
+i.fas.fa-times {
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 85%;
+    font-size: 15px;
+    color: red;
+}
+
+td.mcheckbox {
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+}
+
+i.fas.fa-trash-alt {
+    color: #F3431E;
+    background-color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+h5.committee_sodoso {
+    color: #1353B4;
+    font-size: 20px;
+    font-family: 'Noto Sans Bengali';
+}
+
+.doptorcheckbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    float: left;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.formnopadding{
+    padding-left: 0px;
+}
+
+.fontcheckbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.onulipileft.secodleft {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+.table-bordered th, .table-bordered td {
+    border: 5px solid #ebedf2;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ebedf2;
+    font-family: 'Noto Sans Bengali' !important;
+}
+th.boitokername {
+    background-color: #0084FF;
+    color: #fff;
+}
+
+td.gordertd {
+    padding-top: 25px;
+}
+a.previewbtn.jororibukking {
+    font-size: 18px;
+    font-family: 'Noto Sans Bengali' !important;
+    background-color: #06AE8C;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.buking {
+    margin-top: 30px;
+}
+
+.previewkorun {
+    background-color: #9843CF;
+    color: #fff;
+    font-size: 18px;
+    font-family: noto;
+    font-weight: 500;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+.batilkorun {
+    background-color:#F3431E;
+    color: #fff;
+    font-size: 18px;
+    font-family: noto;
+    font-weight: 500;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+.jomadinbtn {
+    background-color:#0779E4;
+    color: #fff;
+    font-size: 18px;
+    font-family: noto;
+    font-weight: 500;
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+span.searchplaceholder input {
+    width: 90%;
+    border: none;
+}
+
+/* ================================================ 10.5.2021 =============================================================== */
+.separatedateform {
+    width: 15%;
+    margin: 0px 20px;
+}
+/* ================================================ 10.5.2021 =============================================================== */
+/* ================================================ 10.6.2021 =============================================================== */
+
+.checkboxgroup {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.committe_check {
+    padding: 0px 0px 0px 0px;
+}
+.mull_check {
+    padding: 0px 30px 0px !important;
+}
+.hide{
+	display: none;
+}
+
+.boithockbuking {
+    background-color: #06AE8C !important;
+    border: #06AE8C;
+    font-family: 'Noto Sans Bengali';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+	color: #fff;
+}
+.boithockpreview {
+    background-color: #9843CF !important;
+    border: #9843CF;
+    font-family: 'Noto Sans Bengali';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+	color:#fff;
+}
+
+.boithockbatil {
+    background-color: #F3431E !important;
+    border: #F3431E;
+    font-family: 'Noto Sans Bengali';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+	color:#fff;
+	margin: 20px 0px;
+}
+.boithocbukking {
+    background-color: #0779E4 !important;
+    border: #0779E4;
+    font-family: 'Noto Sans Bengali';
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 5px;
+	color:#fff;
+}
+
+.buking {
+    margin-top: 20px;
+}
+
+.alochshuchi {
+    width: 100%;
+}
+
+.alochacheckbox {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.ahobankari {
+    border-bottom: 1px solid #8F8F8F;
+    padding: 15px 0px;
+}
+h2.ahobantitle {
+    color: #1353B4;
+}
+
+input.alochotext {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #B3B3B3;
+}
+
+input.alochotext,
+input.alochotext::-webkit-input-placeholder {
+    font-size: 18px;
+}
+
+.alochodelete {
+    color: #E32745;
+    font-size: 25px;
+}
+/* ================================================ 10.6.2021 =============================================================== */
+
+
+/* =================================================== Responsive Design start Here  ======================================= */
+a:hover {
+    color: #fff !important;
+}
+
+.radiomodal{
+    width: 1100px;
+}
+
+.radiomodal {
+    min-width: 1175px;
+    /* margin: 0 auto !important; */
+    /* position: absolute; */
+    left: -19px;
+}
+
+.inputradio {
+    margin-top: 7px;
+}
+
+.boitoktitle {
+    float: left;
+    margin: 15px 0px;
+}
+.radio_modal_content {
+    background-color: transparent;
+    border: none;
+}
+.totalmodalcontent{
+    width: 1175px;
+    left: -30px;
+}
+
+.radiomodalsecond{
+  
+        min-width: 1175px;
+        /* margin: 0 auto !important; */
+        /* position: absolute; */
+        left: -15px;
+}
+
+.btnrightmodal {
+    text-align: right;
+    float: right;
+    padding: 13px 30px;
+
+}
+
+h3.onulipititle {
+    font-size: 24px !important;
+    color: #1353B4 !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    margin: 0;
+    /* background-color: #DFEDFF; */
+}
+.radiomodalheader {
+    display: block;
+    text-align: center;
+    background-color: #DFEDFF;
+}
+
+.radiomodalheader h3{
+    font-size: 24px !important;
+    color: #1353B4 !important;
+    font-family: 'Noto Sans Bengali' !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+
+/* =================================================== Responsive Design End Here  ======================================= */
+
+
+
+
